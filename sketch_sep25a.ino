@@ -16,8 +16,8 @@
 Dali dali;
 
 //esp32 specific
-#define VR_pin GPIO_NUM_34
-#define BUTTON_pin GPIO_NUM_26
+#define VR_pin GPIO_NUM_34  //potentiometer
+#define BUTTON_pin GPIO_NUM_26   //on off all lamps
 #define TX_PIN GPIO_NUM_16
 #define RX_PIN GPIO_NUM_4
 #define TIMER_UPDATES_PER_SECOND 9600
