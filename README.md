@@ -12,9 +12,9 @@ USAGE
   5 Read memory bank
   6 Set group (open README.txt for more details)
 - If choosing '6', the form be like : '6 ab cd ef'. Meaning:
-  '6': choose set_group mode
-  ' ': it could be any character ( i used space = ' ')
-  'ab': the short address for the first lamp in the series of lamps [0..63]
+  + '6': choose set_group mode
+  + ' ': it could be any character ( i used space = ' ')
+  + 'ab': the short address for the first lamp in the series of lamps [0..63]
   'cd': The number of series of lamps [1..63]
   'ef': Choose group [0..15]
 
