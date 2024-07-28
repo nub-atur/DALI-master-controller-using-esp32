@@ -3,7 +3,7 @@
 More details in here https://github.com/Spectoda/DALI-Lighting-Interface-ESP32. Special thanks to the author for their valuable contributions.
 This repository is based on this link and is developed on Arduino IDE for adding some LED drivers to one group in one time.
 
-USAGE 
+USAGE (on serial monitor)
 - ESP32 will take input command from Serial monitor. It works normally if you press from '1' to '5'.
   + 1 Blink all lamps
   + 2 Scan short addresses
