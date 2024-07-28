@@ -18,3 +18,6 @@ ESP32 will take input command from Serial monitor. It works normally if you pres
     + 'ef': Choose group [0..15]
 
 Example: I want to add ten lamps to group 15, which has addresses 1 to 10. I will send the serial command '6 01 10 15'
+
+![image](https://github.com/user-attachments/assets/0d5119ee-5054-4e6e-8803-19af8c54a970)
+
