@@ -5,12 +5,12 @@ More details are available here: https://github.com/Spectoda/DALI-Lighting-Inter
 USAGE (on Serial Monitor):
 The ESP32 takes input commands from the Serial Monitor. The following commands are supported:
 
-1: Blink all lamps
-2: Scan short addresses
-3: Commission short addresses
-4: Delete short addresses
-5: Read memory bank
-6: Set group
+- 1: Blink all lamps
+- 2: Scan short addresses
+- 3: Commission short addresses
+- 4: Delete short addresses
+- 5: Read memory bank
+- 6: Set group
 If choosing '6', the frame format is: '6 ab cd ef'. Meaning:
   '6': Select set_group mode
   ' ': Any character (e.g., space = ' ')
