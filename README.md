@@ -10,8 +10,7 @@ The ESP32 takes input commands from the Serial Monitor. The following commands a
 - 3: Commission short addresses
 - 4: Delete short addresses
 - 5: Read memory bank
-- 6: Set group
-If choosing '6', the frame format is: '6 ab cd ef'. Meaning:
+- 6: Set group. If choosing '6', the frame format is: '6 ab cd ef'. Meaning:
   - '6': Select set_group mode
   - ' ': Any character (e.g., space = ' ')
   - 'ab': Short address for the first lamp in the series [0..63]
